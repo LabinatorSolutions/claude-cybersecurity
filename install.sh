@@ -3,7 +3,7 @@ set -euo pipefail
 
 SKILL_NAME="cybersecurity"
 SKILL_DIR="$HOME/.claude/skills/$SKILL_NAME"
-REPO_URL="https://github.com/AgriciDaniel/cybersecurity"
+REPO_URL="https://github.com/AgriciDaniel/claude-cybersecurity"
 
 echo "Installing $SKILL_NAME..."
 

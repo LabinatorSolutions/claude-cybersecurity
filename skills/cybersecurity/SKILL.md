@@ -1,5 +1,5 @@
 ---
-name: claude-cybersecurity
+name: cybersecurity
 description: >
   Ultimate AI-powered cybersecurity code review skill. Performs comprehensive
   security audit across 8 dimensions: vulnerability detection (OWASP Top 10:2025,
