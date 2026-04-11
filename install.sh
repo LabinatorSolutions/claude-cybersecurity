@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
 set -euo pipefail
 
-SKILL_NAME="claude-cybersecurity"
+SKILL_NAME="cybersecurity"
 SKILL_DIR="$HOME/.claude/skills/$SKILL_NAME"
-REPO_URL="https://github.com/AgriciDaniel/claude-cybersecurity"
+REPO_URL="https://github.com/AgriciDaniel/cybersecurity"
 
 echo "Installing $SKILL_NAME..."
 
@@ -30,7 +30,7 @@ echo ""
 echo "claude-cybersecurity installed successfully!"
 echo ""
 echo "Usage:"
-echo "  /claude-cybersecurity              # Full security audit"
-echo "  /claude-cybersecurity --scope quick # Quick scan"
-echo "  /claude-cybersecurity --scope diff  # PR review mode"
+echo "  /cybersecurity              # Full security audit"
+echo "  /cybersecurity --scope quick # Quick scan"
+echo "  /cybersecurity --scope diff  # PR review mode"
 echo ""

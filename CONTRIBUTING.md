@@ -21,13 +21,13 @@ Thank you for your interest in contributing!
 1. Fork the repository
 2. Create a feature branch: `git checkout -b feature/new-detection-pattern`
 3. Make your changes
-4. Test by running `/claude-cybersecurity` on a sample project
+4. Test by running `/cybersecurity` on a sample project
 5. Submit a PR with a clear description of what you added/changed
 
 ### Adding Language Patterns
 
 If you're adding detection patterns for a language:
-- Follow the existing format in `skills/claude-cybersecurity/references/language-patterns/`
+- Follow the existing format in `skills/cybersecurity/references/language-patterns/`
 - Include: dangerous function, CWE ID, severity, and secure alternative
 - Add framework-specific patterns where applicable
 - Include at least one code example (vulnerable + fixed)

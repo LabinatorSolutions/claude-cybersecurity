@@ -45,19 +45,19 @@ irm https://raw.githubusercontent.com/AgriciDaniel/claude-cybersecurity/main/ins
 
 ```bash
 # Full security audit of current project
-/claude-cybersecurity
+/cybersecurity
 
 # Quick scan (entry points + auth + secrets + deps only)
-/claude-cybersecurity --scope quick
+/cybersecurity --scope quick
 
 # Review only changed files (PR review mode)
-/claude-cybersecurity --scope diff
+/cybersecurity --scope diff
 
 # Deep dive into one dimension
-/claude-cybersecurity --focus threat
+/cybersecurity --focus threat
 
 # With compliance mapping
-/claude-cybersecurity --compliance pci
+/cybersecurity --compliance pci
 ```
 
 ## What It Does
@@ -125,7 +125,7 @@ Finding Score = Base Severity (CVSS-aligned, 0-100)
 ## Architecture
 
 ```
-/claude-cybersecurity [path] [--scope full|quick|diff] [--compliance pci|hipaa|soc2|gdpr]
+/cybersecurity [path] [--scope full|quick|diff] [--compliance pci|hipaa|soc2|gdpr]
     |
     v
  GATHER: Detect stack, enumerate entry points, map trust boundaries
@@ -143,7 +143,7 @@ Finding Score = Base Severity (CVSS-aligned, 0-100)
 ## File Structure
 
 ```
-skills/claude-cybersecurity/
+skills/cybersecurity/
 ├── SKILL.md                              (900 lines — orchestrator)
 ├── references/
 │   ├── vulnerability-taxonomy.md         (25 CWE categories)
@@ -172,7 +172,7 @@ curl -fsSL https://raw.githubusercontent.com/AgriciDaniel/claude-cybersecurity/m
 
 Or manually:
 ```bash
-rm -rf ~/.claude/skills/claude-cybersecurity
+rm -rf ~/.claude/skills/cybersecurity
 ```
 
 ## Related Projects
